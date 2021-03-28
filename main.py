@@ -2,7 +2,7 @@ import random
 
 
 def main():
-    Answer = input("Make a move! (R/P/S): ").lower()
+    Answer = input("Make a move! (Rock/Paper/Scissors): ").lower()
     Options = ["rock", "paper", "scissors"]
     CpuTurn = random.choice(Options)
     if Answer == "rock":
